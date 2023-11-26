@@ -42,7 +42,7 @@
     # Find maven version
     mvn -version
     
-    Apache Maven 3.9.3 (21122926829f1ead511c958d89bd2f672198ae9f)
+    Apache Maven 3.9.4 (21122926829f1ead511c958d89bd2f672198ae9f)
     Maven home: /opt/maven
     Java version: 17.0.7, vendor: Private Build, runtime: /usr/lib/jvm/java-17-openjdk-amd64
     Default locale: en, platform encoding: UTF-8
