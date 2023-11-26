@@ -47,3 +47,7 @@
     Java version: 17.0.7, vendor: Private Build, runtime: /usr/lib/jvm/java-17-openjdk-amd64
     Default locale: en, platform encoding: UTF-8
     OS name: "linux", version: "5.15.0-1041-azure", arch: "amd64", family: "unix"
+
+## **Windows**
+
+    **Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))**
