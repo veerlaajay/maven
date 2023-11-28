@@ -2,11 +2,11 @@
 
 **Install JDK**
 
-    sudo apt update && sudo apt upgrade
+    sudo apt update && sudo apt upgrade -y
     
     # Verify if Open JDK 17 is available
     apt-cache search openjdk | grep openjdk-17
-    sudo apt install openjdk-17-jdk
+    sudo apt install openjdk-17-jdk -y
     
     # Verify if Java is installed
     java --version
@@ -17,9 +17,11 @@
     java-1.17.0-openjdk-amd64 1711 
     /usr/lib/jvm/java-1.17.0-openjdk-amd64
     
-    nano /etc/profile
+    sudo nano /etc/profile
     export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64
     export PATH=$JAVA_HOME/bin:$PATH
+
+    source /etc/profile
     
     # Verify if the path is set
     echo $JAVA_HOME
